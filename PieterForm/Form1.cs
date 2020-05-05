@@ -40,7 +40,7 @@ namespace PieterForm
         private void Button1_Click(object sender, EventArgs e)
         {
             var CurrentCats = db.GetCollection<Categorie>();
-            var CurrentCats2 = new Categorie { id = 2, parent = 1, afbeelding = "Dieren.jpg", naam = "Dieren", uitgeschakeld = false, volgorde = 1 };
+            var CurrentCats2 = new Categorie { id = 2, parent = 1, afbeelding = "Dieren.jpg", naam = "Dieren2", uitgeschakeld = false, volgorde = 1 };
             CurrentCats.Insert(CurrentCats2);
         }
         private void ShowCat(int id, int scherm)
