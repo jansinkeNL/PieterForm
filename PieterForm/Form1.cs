@@ -13,15 +13,33 @@ namespace PieterForm
 {
     public partial class Form1 : Form
     {
-        public Form1()
-        {
-            InitializeComponent();
-        }
+        clsResize _form_resize;
         LiteDatabase db = new LiteDatabase(@".\PictoWorld.db");
 
         int dezeCat = 0;
         int ditScherm = 0;
         List<PictureBox> schermAfbeeldingen = new List<PictureBox>();
+
+        public Form1()
+        {
+            InitializeComponent();
+            _form_resize = new clsResize(this);
+            this.Load += new EventHandler(_Load);
+            this.Resize += new EventHandler(_Resize);
+
+        }
+
+        private void _Load(object sender, EventArgs e)
+        {
+            _form_resize._get_initial_size();
+        }
+
+        private void _Resize(object sender, EventArgs e)
+        {
+            _form_resize._get_initial_size();
+            _form_resize._resize();
+        }
+
 
 
         private void Form1_Load(object sender, EventArgs e)
@@ -33,7 +51,7 @@ namespace PieterForm
             //CurrentCats.Delete(CurrentCat);
             //CurrentCats.Delete(1);
             //Titel.Text = CurrentCat.naam;
-            //pictureBoxC1R1.Image = Image.FromFile(@".\Images\Kruiwagen.jpg");
+            pictureBoxC1R1.Image = Image.FromFile(@".\Images\Kruiwagen.jpg");
             ShowCat(dezeCat, ditScherm);
         }
 

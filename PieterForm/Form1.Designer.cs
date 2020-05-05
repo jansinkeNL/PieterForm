@@ -70,16 +70,18 @@
             // 
             // pictureBoxC1R1
             // 
+            this.pictureBoxC1R1.BackColor = System.Drawing.Color.White;
             this.pictureBoxC1R1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBoxC1R1.Location = new System.Drawing.Point(12, 37);
             this.pictureBoxC1R1.Name = "pictureBoxC1R1";
             this.pictureBoxC1R1.Size = new System.Drawing.Size(237, 217);
-            this.pictureBoxC1R1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxC1R1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxC1R1.TabIndex = 0;
             this.pictureBoxC1R1.TabStop = false;
             // 
             // pictureBoxC1R2
             // 
+            this.pictureBoxC1R2.BackColor = System.Drawing.Color.White;
             this.pictureBoxC1R2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBoxC1R2.Location = new System.Drawing.Point(12, 311);
             this.pictureBoxC1R2.Name = "pictureBoxC1R2";
@@ -90,6 +92,7 @@
             // 
             // pictureBoxC2R1
             // 
+            this.pictureBoxC2R1.BackColor = System.Drawing.Color.White;
             this.pictureBoxC2R1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBoxC2R1.Location = new System.Drawing.Point(296, 37);
             this.pictureBoxC2R1.Name = "pictureBoxC2R1";
@@ -100,6 +103,7 @@
             // 
             // pictureBoxC2R2
             // 
+            this.pictureBoxC2R2.BackColor = System.Drawing.Color.White;
             this.pictureBoxC2R2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBoxC2R2.Location = new System.Drawing.Point(296, 311);
             this.pictureBoxC2R2.Name = "pictureBoxC2R2";
@@ -110,6 +114,7 @@
             // 
             // pictureBoxC3R1
             // 
+            this.pictureBoxC3R1.BackColor = System.Drawing.Color.White;
             this.pictureBoxC3R1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBoxC3R1.Location = new System.Drawing.Point(583, 37);
             this.pictureBoxC3R1.Name = "pictureBoxC3R1";
@@ -120,6 +125,7 @@
             // 
             // pictureBoxC3R2
             // 
+            this.pictureBoxC3R2.BackColor = System.Drawing.Color.White;
             this.pictureBoxC3R2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBoxC3R2.Location = new System.Drawing.Point(583, 311);
             this.pictureBoxC3R2.Name = "pictureBoxC3R2";
@@ -130,6 +136,7 @@
             // 
             // pictureC4R1
             // 
+            this.pictureC4R1.BackColor = System.Drawing.Color.White;
             this.pictureC4R1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureC4R1.Location = new System.Drawing.Point(875, 37);
             this.pictureC4R1.Name = "pictureC4R1";
@@ -140,6 +147,7 @@
             // 
             // pictureBoxC4R2
             // 
+            this.pictureBoxC4R2.BackColor = System.Drawing.Color.White;
             this.pictureBoxC4R2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBoxC4R2.Location = new System.Drawing.Point(875, 311);
             this.pictureBoxC4R2.Name = "pictureBoxC4R2";
@@ -150,6 +158,7 @@
             // 
             // pictureBoxC1R3
             // 
+            this.pictureBoxC1R3.BackColor = System.Drawing.Color.White;
             this.pictureBoxC1R3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBoxC1R3.Location = new System.Drawing.Point(12, 585);
             this.pictureBoxC1R3.Name = "pictureBoxC1R3";
@@ -160,6 +169,7 @@
             // 
             // pictureBoxC2R3
             // 
+            this.pictureBoxC2R3.BackColor = System.Drawing.Color.White;
             this.pictureBoxC2R3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBoxC2R3.Location = new System.Drawing.Point(296, 585);
             this.pictureBoxC2R3.Name = "pictureBoxC2R3";
@@ -170,6 +180,7 @@
             // 
             // pictureBoxC3R3
             // 
+            this.pictureBoxC3R3.BackColor = System.Drawing.Color.White;
             this.pictureBoxC3R3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBoxC3R3.Location = new System.Drawing.Point(583, 585);
             this.pictureBoxC3R3.Name = "pictureBoxC3R3";
@@ -180,6 +191,7 @@
             // 
             // pictureBoxC4R3
             // 
+            this.pictureBoxC4R3.BackColor = System.Drawing.Color.White;
             this.pictureBoxC4R3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBoxC4R3.Location = new System.Drawing.Point(875, 585);
             this.pictureBoxC4R3.Name = "pictureBoxC4R3";
@@ -360,7 +372,6 @@
             this.Controls.Add(this.pictureBoxC2R1);
             this.Controls.Add(this.pictureBoxC1R2);
             this.Controls.Add(this.pictureBoxC1R1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
